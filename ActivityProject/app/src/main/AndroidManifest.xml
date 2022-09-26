@@ -14,14 +14,17 @@
         android:theme="@style/Theme.Project1"
         tools:targetApi="31">
         <activity
+            android:name=".BotNavActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bot_nav" />
+        <activity
             android:name=".HelpActivity"
             android:exported="true"
-            android:label="Help Activity"
-            />
+            android:label="Help Activity" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="Main Activity">
+            android:label="DUTATANI">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

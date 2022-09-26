@@ -16,9 +16,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_bot_nav)
 
-        tvMain = findViewById(R.id.tv_main_activity)
+
+       /* tvMain = findViewById(R.id.tv_main_activity)
         tvMain.text = getString(R.string.text_progmob_main)
 
         btnInputNama = findViewById(R.id.Btn_ambil_nama)
@@ -38,6 +39,6 @@ class MainActivity : AppCompatActivity() {
             intent.putExtras(bundle)
             startActivity(intent)
             finish()
-        })
+        })*/
     }
 }
