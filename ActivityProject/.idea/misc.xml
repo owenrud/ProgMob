@@ -7,12 +7,16 @@
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1245" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_bot_nav.xml" value="0.2713541666666667" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_dutatani.xml" value="0.264" />
+        <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_edit_data.xml" value="0.22146739130434784" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_help.xml" value="0.1" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_sample_list.xml" value="0.22146739130434784" />
+        <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_sample_list_view.xml" value="0.22146739130434784" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/fragment_dashboard.xml" value="0.2713541666666667" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/fragment_home.xml" value="0.16032608695652173" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/fragment_notifications.xml" value="0.22146739130434784" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2713541666666667" />
+        <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/menu/sample_list_menu.xml" value="0.2713541666666667" />
       </map>
     </option>
   </component>
