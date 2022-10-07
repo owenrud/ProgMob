@@ -13,18 +13,22 @@ class MainActivity : AppCompatActivity() {
     lateinit var btnInputNama : Button
     lateinit var btnHelp : Button
     lateinit var edInputNama : EditText
+    lateinit var btnSampleRv :Button
+    lateinit var btnSampleCv : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_bot_nav)
+        setContentView(R.layout.activity_main)
 
 
-       /* tvMain = findViewById(R.id.tv_main_activity)
+        tvMain = findViewById(R.id.tv_main_activity)
         tvMain.text = getString(R.string.text_progmob_main)
 
         btnInputNama = findViewById(R.id.Btn_ambil_nama)
         btnHelp = findViewById(R.id.btn_help)
         edInputNama = findViewById(R.id.ed_input_nama)
+        btnSampleRv = findViewById(R.id.btnSampleRV)
+        btnSampleCv = findViewById(R.id.btnSampleCV)
 
         btnInputNama.setOnClickListener(View.OnClickListener { view ->
             var strTmp = edInputNama.text.toString()
@@ -39,6 +43,18 @@ class MainActivity : AppCompatActivity() {
             intent.putExtras(bundle)
             startActivity(intent)
             finish()
-        })*/
+        })
+        btnSampleRv.setOnClickListener(View.OnClickListener { view ->
+
+            var intent = Intent(this@MainActivity,SampleRecyclerView::class.java)
+            startActivity(intent)
+            finish()
+        })
+        btnSampleCv.setOnClickListener(View.OnClickListener { view ->
+
+            var intent = Intent(this@MainActivity,SampleCardView::class.java)
+            startActivity(intent)
+            finish()
+        })
     }
 }
