@@ -8,18 +8,23 @@
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_bot_nav.xml" value="0.2713541666666667" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_dutatani.xml" value="0.264" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_edit_data.xml" value="0.22146739130434784" />
+        <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_get_apiactivity.xml" value="0.22146739130434784" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_help.xml" value="0.1" />
+        <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_insert.xml" value="0.264" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_sample_card_view.xml" value="0.22146739130434784" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_sample_list.xml" value="0.22146739130434784" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_sample_list_view.xml" value="0.22146739130434784" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_sample_recycler_view.xml" value="0.22146739130434784" />
+        <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/activity_service.xml" value="0.22146739130434784" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/cv_item_dutatani.xml" value="0.22146739130434784" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/fragment_dashboard.xml" value="0.2713541666666667" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/fragment_home.xml" value="0.16032608695652173" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/fragment_notifications.xml" value="0.22146739130434784" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/rv_dutatani.xml" value="0.22146739130434784" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/rv_item_dutatani.xml" value="0.1" />
+        <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/rv_mhs_api.xml" value="0.19979508196721313" />
+        <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/layout/rv_user_api.xml" value="0.25925925925925924" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2713541666666667" />
         <entry key="..\:/Repo Prog Mobile/ActivityProject/app/src/main/res/menu/sample_list_menu.xml" value="0.2713541666666667" />
       </map>
