@@ -1,5 +1,7 @@
 package com.example.project1.adapter
 
+import android.content.Context
+import android.content.Intent
 import com.example.project1.model.ResponseMahasiswaItem
 
 
@@ -7,9 +9,14 @@ import com.example.project1.model.ResponseMahasiswaItem
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.PopupMenu
 import android.widget.TextView
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
+import com.example.project1.EditData
+import com.example.project1.InsertActivity
 import com.example.project1.R
+import com.example.project1.items
 
 
 class MahasiswaAdapter(val mhs: List<ResponseMahasiswaItem>?):
@@ -32,6 +39,25 @@ class MahasiswaAdapter(val mhs: List<ResponseMahasiswaItem>?):
     }
 
     class MhsHolder(view: View) : RecyclerView.ViewHolder(view) {
+        init{
+            view.setOnLongClickListener {
+                val pop = PopupMenu(view.context,it)
+                pop.inflate(R.menu.sample_list_menu)
+
+                pop.setOnMenuItemClickListener { item ->
+                    when(item.itemId){
+                        R.id.menu_add ->{}
+                        R.id.menu_edit ->{}
+                        R.id.menu_delete->{
+                            
+                        }
+                    }
+                    true
+                }
+                pop.show()
+                false
+            }
+        }
         lateinit var txtNim: TextView
         lateinit var txtNama: TextView
         lateinit var txtfoto: TextView
